@@ -30,7 +30,6 @@ function MessageEnter() {
     }
 
 
-    // функция отправки запроса
     const sendMessage = () => {
         const data = {
             "chatId": `${phoneNum}@c.us`,
@@ -55,7 +54,7 @@ function MessageEnter() {
             .get('https://api.green-api.com/waInstance1101821599/ReceiveNotification/b99e7dc1b2a34a49b8923049dc49c930cd2485bb5fc640c7ad')
             .then(result => {
                 if (result.data) {
-                    if (result.data.body.senderData.chatId == `${phoneNum}@c.us`) {
+                    // if (result.data.body.senderData.chatId == `${phoneNum}@c.us`) {
                         dispatch(addMessageToFed({
                             type: 'messageIncoming',
                             body: result.data.body.messageData.textMessageData.textMessage,
@@ -71,12 +70,16 @@ function MessageEnter() {
                             .catch(error => {
                                 // console.log(error);
                             })
-                    }
+                    // }
                 }
             })
             .catch(error => {
                 // console.log(error);
             });
+    }
+
+    if (phoneNum) {
+
     }
 
     let timerId = null;
@@ -107,6 +110,9 @@ function MessageEnter() {
         </div>
     )
 }
+
+
+
 
 
 
