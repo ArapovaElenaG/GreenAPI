@@ -1,0 +1,39 @@
+@import '../App.scss';
+
+.chatList {
+    width: 45%;
+    font-size: 20px;
+    color: $icons;
+
+    .itemChat {
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+
+        .avatar {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: $avatarBackground;
+            border-radius: 1px solid $avatarBackground;
+            background-image: url(../images/person-fill.svg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: 50% 7px;
+            overflow: hidden;
+            margin-right: 20px;
+        }
+
+        .name {
+            font-size: 18px;
+
+            .span {
+                font-size: 13px;
+            }
+        }
+    }
+
+    .itemChat:nth-child(odd) {
+        background-color: $header_background;
+    }
+}

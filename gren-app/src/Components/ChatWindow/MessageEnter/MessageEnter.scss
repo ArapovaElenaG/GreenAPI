@@ -1,0 +1,34 @@
+@import '../../App.scss';
+
+.messageEnter {
+    display: flex;
+    background-color: $header_background;
+    height: 70px;
+    flex-shrink: 0;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 25px;
+    color: $icons;
+    position: fixed;
+    bottom: 0;
+    width: inherit;
+
+    .icon {
+        margin-right: 20px;
+    }
+
+
+    .inputEnter {
+        height: 40px;
+        width: 60%;
+        background-color: #fff;
+        border: none;
+        border-radius: 7.5px;
+        margin-right: 20px;
+        padding: 0 10px;
+    }
+
+    .inputEnter:focus {
+        outline: none;
+    }
+}
