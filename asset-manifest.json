@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a70d9e2.css",
+    "main.js": "/static/js/main.5a3ba698.js",
+    "static/js/787.e94a1ad6.chunk.js": "/static/js/787.e94a1ad6.chunk.js",
+    "static/media/1619162304_11-phonoteka_org-p-fon-vatsap-14.jpg": "/static/media/1619162304_11-phonoteka_org-p-fon-vatsap-14.b21fdfdf6fcfa518c424.jpg",
+    "index.html": "/index.html",
+    "static/media/chat-left-text-fill.svg": "/static/media/chat-left-text-fill.2f7f9d993a55c16b7975807887a70871.svg",
+    "static/media/person-fill.svg": "/static/media/person-fill.0f597c65f67eac8b8335.svg",
+    "main.4a70d9e2.css.map": "/static/css/main.4a70d9e2.css.map",
+    "main.5a3ba698.js.map": "/static/js/main.5a3ba698.js.map",
+    "787.e94a1ad6.chunk.js.map": "/static/js/787.e94a1ad6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a70d9e2.css",
+    "static/js/main.5a3ba698.js"
+  ]
+}
